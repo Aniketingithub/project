@@ -1,0 +1,54 @@
+[
+  {
+    "_id": "ee54beef-8a2b-4ed3-9e99-e55c78c53368",
+    "colId": "9f72d129-911d-40b7-a4b2-a2c32cca5234",
+    "containerId": "",
+    "name": "register user",
+    "url": "http://localhost:3000/api/register",
+    "method": "POST",
+    "sortNum": 10000,
+    "created": "2023-06-10T06:00:09.693Z",
+    "modified": "2023-06-10T06:51:49.048Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n  \"name\": \"Rahul2\",\n  \"phoneNumber\": \"1234567\",\n  \"password\": \"rahul\"\n}",
+      "form": []
+    },
+    "tests": []
+  },
+  {
+    "_id": "15fbf804-e5d8-4ca6-ac3d-b7acf833bddb",
+    "colId": "9f72d129-911d-40b7-a4b2-a2c32cca5234",
+    "containerId": "",
+    "name": "home",
+    "url": "http://localhost:3000/",
+    "method": "GET",
+    "sortNum": 20000,
+    "created": "2023-06-10T06:11:58.484Z",
+    "modified": "2023-06-10T06:12:14.235Z",
+    "headers": [],
+    "params": [],
+    "tests": []
+  },
+  {
+    "_id": "c4cac78d-45da-4412-b631-862bcc668780",
+    "colId": "9f72d129-911d-40b7-a4b2-a2c32cca5234",
+    "containerId": "",
+    "name": "get users",
+    "url": "http://localhost:3000/api/getuser",
+    "method": "GET",
+    "sortNum": 30000,
+    "created": "2023-06-10T06:36:51.248Z",
+    "modified": "2023-06-10T06:52:14.065Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n  \"phoneNumber\": \"123457\",\n  \"password\": \"rahul\"\n}",
+      "form": []
+    },
+    "tests": []
+  }
+]
