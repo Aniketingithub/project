@@ -22,3 +22,9 @@ The data.json file will contain all the user details.
 
 - POST `/api/register` registers a user.
 - GET `/api/getuser` logins and return the data of the user with phone number.
+
+## Run the application 
+
+```
+node index.js
+```
